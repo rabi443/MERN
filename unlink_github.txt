@@ -1,0 +1,28 @@
+# How to unlink?
+-> git remote -v
+    result: like this
+        origin  https://github.com/username/repo.git (fetch)
+        origin  https://github.com/username/repo.git (push)
+
+-> git remote remove origin
+    note:This deletes the link to GitHub.
+        Your local repo will remain intact, but it won’t push/pull anymore.
+
+->git remote -v
+    note : You should see no output, meaning it’s unlinked.
+
+-> Remove-Item -Recurse -Force .git
+
+    note :-Recurse → deletes all files and subfolders inside .git
+
+        -Force → deletes hidden/system files
+
+        .git → the Git folder to remove
+
+        Your local folder will no longer be a Git repository.
+
+        All files remain intact.
+
+        You can optionally reinitialize Git later again
+
+
