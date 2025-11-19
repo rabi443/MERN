@@ -1,0 +1,9 @@
+1. Difference between production operation ,and service management.
+                                production                              service management
+output=>              i. Tangible in nature.                i. Intangible in nature which is difficult to identify.
+Consumer contact=>    ii. Very Low.                         ii. Frequent and high.
+Nature of work=>      iii.Capital intensive to buy          iii.Labour intensive, Human resources and their relationship
+                          heavey equipment to production  
+                          work.
+Uniformity of         iv. High.                             iv. Low.
+output=>
